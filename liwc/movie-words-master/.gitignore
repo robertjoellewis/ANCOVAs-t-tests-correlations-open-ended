@@ -1,0 +1,23 @@
+# eclipse-generated
+
+.settings/
+.gitignore # because eclipse seems to be generating them, annoyingly
+
+# generated artifacts
+
+*.class
+*.jar
+*.zip
+bin/*
+
+# garbage files
+
+*~
+~*
+.DS_Store
+*.orig
+*.swp
+
+# maven-generated
+
+target/
